@@ -1,0 +1,54 @@
+$date
+	Sun Sep 17 19:35:09 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module halfadder_tb $end
+$var wire 2 ! o_p1 [1:0] $end
+$var wire 2 " o_p0 [1:0] $end
+$var reg 2 # i_p0 [1:0] $end
+$var reg 2 $ i_p1 [1:0] $end
+$scope module UUT $end
+$var wire 2 % i_p0 [1:0] $end
+$var wire 2 & i_p1 [1:0] $end
+$var wire 2 ' o_p0 [1:0] $end
+$var wire 2 ( o_p1 [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b1 "
+b1 '
+b1 #
+b1 %
+#20
+b1 $
+b1 &
+b0 #
+b0 %
+#30
+b0 "
+b0 '
+b1 !
+b1 (
+b1 #
+b1 %
+#40

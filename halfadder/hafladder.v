@@ -1,7 +1,7 @@
 module hafladder(
-    input [1:0] i_p0,
-    input [1:0] i_p1,
-    output [1:0] o_p0,
+    input i_p0,
+    input i_p1,
+    output o_p0,
     output [1:0] o_p1
 );
 
